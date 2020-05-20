@@ -1,0 +1,39 @@
+body {
+  background-color: lightblue;
+  border-style: solid;
+}
+
+nav {
+  background-color: darkblue;
+  color: white;
+  border-style: solid;
+}
+
+.user-button {
+  text-align: right;
+}
+
+.nav-bar {
+}
+
+.site-name {
+  text-align: right;
+  border-style:dashed;
+}
+
+.title {
+  text-align: left;
+  border-style: dashed;
+}
+
+.animals {
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border-style: double;
+  grid-gap: 10px;
+}
+
+article {
+  border-style: dotted;
+}
