@@ -10,6 +10,9 @@ button {
 .header-bar {
   background-color: #053C5E;
   color: #FFC9B5;
+  -moz-box-shadow:    3px 3px 5px 2px #053C5E;
+  -webkit-box-shadow: 3px 3px 5px 2px #053C5E;
+  box-shadow:         3px 3px 5px 2px #053C5E;
 }
 
 .user-button {
@@ -60,13 +63,20 @@ section {
   display: flex;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 15px;
+}
+
+i {
+  font-size: 65px;
 }
 
 article {
   background-color: #92828D;
   padding: 10px;
   color: #053C5E;
+  -moz-box-shadow:    3px 3px 5px 2px #92828D;
+  -webkit-box-shadow: 3px 3px 5px 2px #92828D;
+  box-shadow:         3px 3px 5px 2px #92828D;
 }
 
 .top-line {
