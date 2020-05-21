@@ -38,6 +38,11 @@ nav {
   font-size: 35px;
 }
 
+section {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .animals {
   display: flex;
   display: grid;
@@ -57,6 +62,14 @@ article {
   grid-template-columns: 1fr 1fr;
 }
 
+.animal-info {
+  line-height: .25;
+}
+
+.bio {
+  text-align: center;
+}
+
 .ranking {
   text-align: right;
   font-size: 40px;
@@ -71,8 +84,12 @@ article {
 
 .site-info {
   text-align: right;
+  line-height: .75;
+
 }
 
 .animal-facts {
   text-align: left;
+  line-height: .75;
+
 }
