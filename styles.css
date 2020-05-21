@@ -1,5 +1,5 @@
 body {
-  background-color: lightblue;
+  background-color: #CAE5FF;
 }
 
 button {
@@ -8,8 +8,8 @@ button {
 }
 
 .header-bar {
-  background-color: darkblue;
-  color: white;
+  background-color: #053C5E;
+  color: #FFC9B5;
 }
 
 .user-button {
@@ -19,8 +19,7 @@ button {
 
 .sign-in {
   font-size: 25px;
-  background-color: darkblue;
-  color: white;
+  color: #FFC9B5;
 }
 
 .nav-bar {
@@ -35,8 +34,7 @@ button {
 .lists-link,
 .upload-link {
   font-size: 25px;
-  background-color: darkblue;
-  color: white;
+  color: #FFC9B5;
   height: 100px;
 }
 
@@ -50,6 +48,7 @@ button {
   text-align: left;
   font-size: 35px;
   height: 100px;
+  color: #576066
 }
 
 section {
@@ -65,8 +64,9 @@ section {
 }
 
 article {
-  background-color: white;
+  background-color: #92828D;
   padding: 10px;
+  color: #053C5E;
 }
 
 .top-line {
