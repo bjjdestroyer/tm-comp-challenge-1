@@ -20,14 +20,22 @@ nav {
   grid-template-rows: flex-end;
 }
 
+.rankings-link,
+.lists-link,
+.upload-link {
+  font-size: 25px;
+}
+
 .site-name {
   text-align: right;
   border-style:dashed;
+  font-size: 45px;
 }
 
 .title {
   text-align: left;
   border-style: dashed;
+  font-size: 35px;
 }
 
 .animals {
@@ -52,4 +60,19 @@ article {
 .ranking {
   text-align: right;
   font-size: 40px;
+}
+
+.extra-info {
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-style: ridge;
+}
+
+.site-info {
+  text-align: right;
+}
+
+.animal-facts {
+  text-align: left;
 }
