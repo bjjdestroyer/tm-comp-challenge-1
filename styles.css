@@ -68,19 +68,12 @@ article {
 
 .top-line {
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 60px;
-  border-style: dashed;
-}
-
-.upvote {
-  float: left;
+  grid-template-columns: 2fr 2fr;
 }
 
 .ranking {
-  position: absolute;
-  float: right;
-  font-size: 40px;
+  text-align: right;
+  font-size: 30px;
   border-style: ridge;
 }
 
