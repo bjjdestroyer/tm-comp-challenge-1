@@ -126,3 +126,55 @@ article {
 .animal-pic {
   width: 300px;
 }
+
+/*small screens*/
+@media screen and (max-width: 767px) {
+  .header-bar {
+    height: 250px;
+    width: 767px;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .animals {
+    display: flex;
+    display: grid;
+    padding-top: 30px;
+    grid-template-columns: 1fr 1fr;
+    width: 350px;
+  }
+
+  .img-container {
+    text-align: center;
+  }
+}
+
+/*medium screens*/
+@media screen and (max-width: 1023px) {
+  .header-bar {
+    height: 200px;
+    width: 1023px;
+  }
+
+  .title {
+    height: 100px;
+  }
+
+  .animals {
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 400px;
+  }
+
+  .img-container {
+    text-align: center;
+  }
+}
+
+/*extra large screens*/
+@media screen and (min-width: 1279px) {
+
+}
