@@ -114,3 +114,7 @@ article {
   text-align: left;
   line-height: .75;
 }
+
+.animal-pic {
+  width: 300px;
+}
