@@ -90,7 +90,15 @@ article {
 }
 
 .animal-info {
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   line-height: .25;
+  font-size: 20px;
+}
+
+.age {
+  text-align: right;
 }
 
 .bio {
