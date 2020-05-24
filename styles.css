@@ -8,6 +8,7 @@ button {
 }
 
 .header-bar {
+  width: 100%;
   background-color: #053C5E;
   color: #FFC9B5;
   -moz-box-shadow:    3px 3px 5px 2px #053C5E;
@@ -16,8 +17,7 @@ button {
 }
 
 .user-button {
-  text-align: right;
-  padding: 30px;
+  padding-top: 30px;
 }
 
 .sign-in {
@@ -28,9 +28,8 @@ button {
 .nav-bar {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 3fr;
-  grid-template-rows: flex-end;
-  padding: 0;
-  height: 100px;
+  align-content: center;
+  height: 25%;
 }
 
 .rankings-link,
@@ -42,28 +41,27 @@ button {
 }
 
 .site-name {
-  text-align: right;
   font-size: 45px;
-
 }
 
 .title {
-  text-align: left;
+  width: 100%;
   font-size: 35px;
-  height: 100px;
-  color: #576066
+  height: 15%;
+  color: #576066;
 }
 
 section {
-  padding-left: 10px;
   padding-right: 10px;
 }
 
 .animals {
   display: flex;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 15px;
+  width: 90%;
+  padding: 0 5%;
+  padding-bottom: 50px;
 }
 
 i {
@@ -124,57 +122,91 @@ article {
 }
 
 .animal-pic {
-  width: 300px;
+  width: 90%;
+  margin: 0 5%;
 }
 
 /*small screens*/
-@media screen and (max-width: 767px) {
-  .header-bar {
-    height: 250px;
-    width: 767px;
+@media screen and (max-width: 768px) {
+  .sign-in {
+    text-align: left;
+  }
+
+  .site-name {
+    flex-wrap: wrap;
+    font-size: 40px;
+    padding-top: 50px;
+  }
+
+  .nav-bar {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    grid-template-columns: 1fr 1fr;
+    height: 40%;
   }
 
   .title {
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
+    height: 30%;
   }
 
   .animals {
-    display: flex;
     display: grid;
-    padding-top: 30px;
-    grid-template-columns: 1fr 1fr;
-    width: 350px;
-  }
-
-  .img-container {
-    text-align: center;
+    grid-template-columns: 1fr;
   }
 }
 
 /*medium screens*/
-@media screen and (max-width: 1023px) {
-  .header-bar {
-    height: 200px;
-    width: 1023px;
+@media screen and (min-width: 1024px) {
+  .user-button {
+    text-align: center;
   }
 
   .title {
+    text-align: center;
     height: 100px;
   }
 
   .animals {
-    display: flex;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 400px;
   }
 
-  .img-container {
+  .sign-in {
+    text-align: left;
+  }
+
+  .site-name {
+    flex-wrap: wrap;
+    font-size: 50px;
+  }
+
+  .nav-bar {
+    display: flex;
+    flex-direction: column-reverse;
     text-align: center;
   }
 }
 
-/*extra large screens*/
-@media screen and (min-width: 1279px) {
+@media screen and (min-width: 1280px) {
+  .user-button {
+    text-align: right;
+  }
 
+  .title {
+    text-align: left;
+    padding-left: 65px;
+  }
+
+  .animals {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .nav-bar {
+    display: flex;
+    flex-direction: row;
+  }
 }
