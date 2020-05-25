@@ -16,10 +16,6 @@ button {
   box-shadow:         3px 3px 5px 2px #053C5E;
 }
 
-.user-button {
-  padding-top: 30px;
-}
-
 .sign-in {
   font-size: 25px;
   color: #FFC9B5;
@@ -218,6 +214,7 @@ article {
 @media screen and (min-width: 1280px) {
   .user-button {
     text-align: right;
+    padding-top: 30px;
   }
 
   .site-name {
