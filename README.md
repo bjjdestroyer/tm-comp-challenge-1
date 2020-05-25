@@ -1,3 +1,16 @@
+# Project Overview:
+
+In this project, we were tasked with replicating a screenshot of a website, though we had some flexibility with the content of our replication.
+
+Below is website we had to replicate:
+![screenshot of reference website](pics/static-comp-challenge-screenshot.jpg)
+
+Here are two screenshots of my website recreation:
+
+
+
+
+Links to the images used for the animals:
 Image by <a href="https://pixabay.com/users/Kirgiz03-6995361/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2934720">Юрий Сидоренко</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2934720">Pixabay</a>
 
 Image by <a href="https://pixabay.com/photos/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=801826">Free-Photos</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=801826">Pixabay</a>
