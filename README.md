@@ -7,7 +7,7 @@ I created a cute animal ranking site. The top navigation bar includes a place fo
 Below is website we had to replicate:
 ![screenshot of reference website](pics/static-comp-challenge-screenshot.jpg)
 
-Here are two screenshots of my website recreation:
+Here are three screenshots of my website recreation:
 ![screenshot of top of page](pics/screenshot-1.png)
 
 ![screenshot of first row](pics/screenshot-2.png)
