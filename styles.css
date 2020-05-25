@@ -86,7 +86,6 @@ article {
   display: flex;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  line-height: .25;
   font-size: 20px;
 }
 
