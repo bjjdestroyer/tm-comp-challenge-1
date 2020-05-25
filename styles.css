@@ -28,7 +28,6 @@ button {
 .nav-bar {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 3fr;
-  align-content: center;
   height: 25%;
 }
 
@@ -128,7 +127,7 @@ article {
 
 /*small screens*/
 @media screen and (max-width: 768px) {
-  .sign-in {
+  .user-button {
     text-align: left;
   }
 
@@ -159,9 +158,20 @@ article {
   }
 }
 
-/*medium screens*/
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 769px) {
   .user-button {
+    text-align: center;
+    padding-top: 65px;
+  }
+
+  .site-name {
+    flex-wrap: wrap;
+    font-size: 50px;
+  }
+
+  .nav-bar {
+    display: flex;
+    flex-direction: column-reverse;
     text-align: center;
   }
 
@@ -174,9 +184,23 @@ article {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+}
 
-  .sign-in {
-    text-align: left;
+/*medium screens*/
+@media screen and (min-width: 1024px) {
+  .user-button {
+    text-align: center;
+    padding-top: 75px;
+  }
+
+  .title {
+    text-align: center;
+    height: 100px;
+  }
+
+  .animals {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .site-name {
@@ -196,6 +220,10 @@ article {
     text-align: right;
   }
 
+  .site-name {
+    text-align: right;
+  }
+
   .title {
     text-align: left;
     padding-left: 65px;
@@ -207,6 +235,8 @@ article {
 
   .nav-bar {
     display: flex;
+    display: grid;
     flex-direction: row;
+    align-items: flex-end;
   }
 }
