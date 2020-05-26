@@ -17,7 +17,7 @@ button {
 }
 
 .sign-in {
-  font-size: 25px;
+  font-size: 1.5em;
   color: #FFC9B5;
 }
 
@@ -30,18 +30,18 @@ button {
 .rankings-link,
 .lists-link,
 .upload-link {
-  font-size: 25px;
+  font-size: 1.5em;
   color: #FFC9B5;
   height: 100px;
 }
 
 .site-name {
-  font-size: 45px;
+  font-size: 15em;
 }
 
 .title {
   width: 100%;
-  font-size: 35px;
+  font-size: 3em;
   height: 15%;
   color: #576066;
 }
@@ -60,7 +60,8 @@ section {
 }
 
 i {
-  font-size: 65px;
+  padding-top: 18px;
+  font-size: 4em;
 }
 
 article {
@@ -75,18 +76,19 @@ article {
 .top-line {
   display: grid;
   grid-template-columns: 2fr 2fr;
+  align-content: center;
 }
 
 .ranking {
   text-align: right;
-  font-size: 30px;
+  font-size: 2.5em;
 }
 
 .animal-info {
   display: flex;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  font-size: 20px;
+  font-size: 1.3em;
 }
 
 .age {
@@ -96,23 +98,22 @@ article {
 .bio {
   text-align: center;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.5em;
 }
 
 .extra-info {
-  display: flex;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
 .site-info {
   text-align: right;
-  line-height: .75;
+  line-height: 1;
 }
 
 .animal-facts {
   text-align: left;
-  line-height: .75;
+  line-height: 1;
 }
 
 .animal-pic {
@@ -132,16 +133,19 @@ article {
     padding-top: 50px;
   }
 
+  .header-bar {
+    padding-left: 20px;
+    padding-top: 30px;
+  }
+
   .nav-bar {
     display: flex;
     flex-direction: column-reverse;
     align-items: flex-start;
-    grid-template-columns: 1fr 1fr;
     height: 40%;
   }
 
   .title {
-    display: flex;
     flex-wrap: wrap;
     text-align: center;
     height: 30%;
